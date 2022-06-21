@@ -1,0 +1,206 @@
+resposta = cadeia
+
+escreva("É terrestre ?");
+resposta=leia();
+se(respota=="sim")
+{
+    escreva("Cabe apenas uma pessoa ?");
+    resposta=leia()
+           
+    se(resposta=="sim")
+    {
+        escreva("É pesado ?")
+        resposta=leia()
+
+                se(resposta=="sim")
+                {
+                    escreva("É um Trator");
+                }
+                senao
+                {
+                    escreva("Tem pedal ?");
+                    resposta=leia();
+                    se(resposta=="sim")
+                    {
+                        escreva("É uma bicicleta");
+                    }
+                }
+            }
+            senao
+            {
+                escreva("Usa capacete ?")
+                resposta=leia();
+                 
+                se(resposta=="sim") 
+                {
+                    escreva("É uma moto");
+                }
+                senao 
+                {
+                    escreva("Tem passagueiro ?");
+                    resposta=leia();
+
+                    se(resposta=="sim")
+                    {
+                        escreva("Usa trilho ?");
+                        resposta=leia()
+                        se(resposta=="sim")
+                        {
+                            escreva ("É um trem");
+                        }
+                    }
+                        senao
+                        {
+                            escreva("Anda na pista ?")
+                            resposta=leia();
+
+                            se(resposta=="sim")
+                            {
+                                escreva("É alto ?");
+                                resposta=leia();
+                            
+                                se(resposta=="sim")
+                                {
+                                    escreva("usa carroceria ?")
+                                    resposta=leia();
+
+                                    se(resposta="sim")
+                                    {
+                                        escreva("É um caminhão");
+                                    }
+                                    senao{
+                                        escreva("É um ônibus")
+                                    }
+                                }
+                                senao
+                                {
+                                    escreva("É um veículo leve ?");
+                                    resposta=leia()
+
+                                    se(resposta=="sim")
+                                    {
+                                        escreva("É um carro")
+                                    }
+                                }
+        senao
+        {
+            escreva("É aéreo ?")
+            resposta=leia()
+
+            se(resposta=="sim")
+            {
+                escreva("Precisa pular ?")
+                resposta=leia
+
+                se(resposta=="sim")
+                {
+                    escreva("É uma asa delta")
+
+                }
+                senao
+                {
+                    escreva("Viaja dentro ?")
+                    resposta=leia()
+
+                    se(resposta=="sim")
+                    {
+                        escreva("É devagar ?")
+                        resposta=leia
+                        se(resposta=="sim")
+                        {
+                            escreva=("É um balão")
+                        }
+                        senao
+                        {
+                            escreva("Tem piloto ?")
+                            resposta=leia()
+
+                            se(resposta=="sim")
+                            {
+                                escreva("Possui asas fixas ?")
+                                resposta=leia()
+
+                                se(resposta=="sim")
+                                {
+                                    escreva("É um avião")
+                                }
+                                senao
+                                {
+                                    escreva("Faz voo vertical ?")
+                                    resposta=leia()
+
+                                    se(resposta=="sim")
+                                    {
+                                        escreva("É um helicóptero")
+                                    }
+                                }
+
+                            }
+                        }   
+                    }
+                
+                }
+            }
+        }
+
+        senao
+        {
+            escreva("É aquático")
+            resposta=leia()
+
+            se(resposta=="sim")
+            {
+                escreva("É coberto de água ?")
+                resposta=leia()
+
+                se(resposta=="sim")
+                {
+                    escreva("É um submarino")
+                }
+                senao
+                {
+                    escreva("Navega na água ?")
+                    resposta=leia()
+
+                    se(resposta=="sim")
+                    {
+                        escreva("possui vela ?")
+                        resposta=leia()
+
+                        se(resposta="sim")
+                        {
+                            escreva("É um barco")
+                    
+                        }
+                        senao
+                        {
+
+                            escreva("Tem motor ?")
+                            resposta=leia()
+
+                            se(resposta=="sim")
+                            {
+                                escreva("É alto ?")
+                                resposta=leia()
+
+                                se(resposta=="sim")
+                                {
+                                    escreva("É um navio")
+                                }
+                                senao
+                                {
+                                    escreva("pode ser descoberto ?")
+                                    resposta=leia()
+
+                                    se(resposta=="sim")
+                                    {
+                                        escreva("É uma lancha")
+                                    }
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
